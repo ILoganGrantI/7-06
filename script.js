@@ -1,7 +1,7 @@
-let number = 15 
+const number = 15
 let guess = 0
 
-while (guess != number) {
+while (guess !== number) {
   if (guess > number) {
     alert('Too big, try again')
   }
